@@ -176,11 +176,11 @@ a img{
     color: white;
   }
 
-  .android-drawer span.mdl-navigation__link_special.mdl-navigation__link_special {
-    color: #d65b00;
-    font-weight: bold;
-    text-align: center;
+  .android-drawer span.special-font {
+    font-size: 32px;
   }
+  
+  
 
   .android-drawer .mdl-layout-title {
     position: relative;
