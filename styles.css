@@ -123,6 +123,15 @@ a img{
     border-bottom: 4px solid transparent;
   }
 
+  .android-navigation .mdl-navigation__link_special {
+    font-color: white;
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
     .android-navigation .mdl-navigation__link:hover {
       border-bottom: 4px solid #8bc34a;
     }
@@ -165,6 +174,12 @@ a img{
   
   .android-drawer a.mdl-navigation__link.mdl-navigation__link {
     color: white;
+  }
+
+  .android-drawer span.mdl-navigation__link_special.mdl-navigation__link_special {
+    color: #d65b00;
+    font-weight: bold;
+    text-align: center;
   }
 
   .android-drawer .mdl-layout-title {
