@@ -150,7 +150,8 @@ a img{
   .android-drawer-separator {
     height: 1px;
     background-color: #d65b00;
-    margin: 8px 0;
+    margin: 6px 0;
+    margin-bottom: 6px;
   }
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
@@ -466,6 +467,11 @@ a img{
   .android-footer .mdl-mega-footer--right-section a .material-icons {
     position: relative;
     top: 6px;
+  }
+
+  p.mdl-typography--font-light{
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
 
