@@ -18,10 +18,24 @@ body {
   margin: 0;
 }
 
+.update_column{
+  float: center;
+  width: 70%;
+  height: 30%;
+  position: center;
+  background: #666;
+}
+
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
 }
+
+.update-header h1{
+  color: white;
+  text-indent: 250px;
+
+  }
 
 ::-moz-selection {
   background-color: #d65b00;
@@ -213,6 +227,15 @@ a img{
   background-size: cover;
 }
 
+.android-be-together-section-updates {
+  position: relative;
+  height: 200px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/empty-slide01.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
@@ -222,7 +245,7 @@ a img{
 
 .android-slogan {
   font-size: 60px;
-  padding-top: 160px;
+  padding-top: 80px;
 }
 
 .android-sub-slogan {
@@ -232,7 +255,7 @@ a img{
 
 .android-create-character {
   font-size: 21px;
-  padding-top: 350px;
+  padding-top: 400px;
 }
 
   .android-create-character a {
@@ -545,7 +568,7 @@ a img{
   }
 
   .android-be-together-section {
-    height: 350px;
+    height: 200px;
   }
 
   .android-slogan {
@@ -580,5 +603,35 @@ a img{
 
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
+  }
+
+  .mdl-card__media{
+	padding-top: 150px;
+}
+
+  .blank-space{
+padding-top: 100px
+	height: 150px;
+	width: 100%;
+}
+
+  .card-container{
+  float: top;
+  padding-top: 100px;
+  width: 30%;
+  position: center;
+  }
+
+  card-container{
+  float: top;
+  padding-top: 100px;
+  width: 30%;
+  position: center;
+  }
+
+  .update-header h1{
+  color: white;
+  text-indent: 15px;
+
   }
 }
