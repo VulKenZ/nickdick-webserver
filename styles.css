@@ -72,6 +72,18 @@ input[type=submit]:hover {
   width: 70%;
   padding-top: 15px;
 }
+.container-2 {
+  background-color: #bbbbbb;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
 
 ::-moz-selection {
   background-color: #d65b00;
@@ -286,7 +298,7 @@ input[type=submit]:hover {
 
 .android-sub-slogan {
   font-size: 21px;
-  padding-top: 24px;
+  padding-top: 125px;
 }
 
 .android-create-character {
