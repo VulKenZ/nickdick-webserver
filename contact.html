@@ -81,7 +81,7 @@
           <a class="mdl-navigation__link" href="">Android Apps (Coming Soon)</a>
           <div class="android-drawer-separator"></div>
           <span class="mdl-navigation__link" href="">About Us</span>
-          <a class="mdl-navigation__link" href="https://scorchgames.com/updates">Updates</a>
+          <a class="mdl-navigation__link" href="scorchgames.com/updates.html">Updates</a>
 		  <a class="mdl-navigation__link" href="">Our Story</a>
           <div class="android-drawer-separator"></div>
           <span class="mdl-navigation__link" href="">Contact Us & Support</span>
@@ -93,17 +93,35 @@
 		<!-- Body -->
       <div class="android-content mdl-layout__content">
 			<div class="android-be-together-section-updates mdl-typography--text-center">
-				<div class="logo-font android-slogan">Updates on our projects</div>
+				<div class="logo-font android-slogan">Contact The Scorch Team</div>
 
 
 
 
       </div>
 
+		<div class="container">
+  <form action="action_page.php">
 
-	<div class="update-header">
-		<h1>Current Projects</h1>
-	</div>
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Return Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
             
        <footer class="android-footer mdl-mega-footer">
           
