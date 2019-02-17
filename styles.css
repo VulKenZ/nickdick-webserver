@@ -26,16 +26,58 @@ body {
   background: #666;
 }
 
+#update-header {
+	margin: 0 auto 50px;
+	width: 70%;
+}
+
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
 }
 
-.update-header h1{
+.project-h3{
   color: white;
-  text-indent: 250px;
-
+  text-align: left;
+  padding-left: 25px;
   }
+
+.portfolio-max-width{
+	width: 70%;
+}
+
+.demo-card-square.mdl-card {
+  width: 300px;
+  height: 320px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.demo-card-square > .mdl-card__title_wumpus {
+  background-color: #fff;
+  background-size: cover;
+  background:
+    url('images/wumpus.png') bottom right 15% no-repeat #000;
+}
+.demo-card-square > .mdl-card__title_square {
+  background-color: #fff;
+  background-size: cover;
+  background:
+    url('images/') bottom left 5% no-repeat #000;
+}
+
+.demo-card-square > .mdl-card__title_web {
+  background-color: #000;
+  background-size: cover;
+  background:
+    url('images/burn-small.png') center left 15% no-repeat #000;
+}
+
+.h2-title {
+	padding-top: 80px;
+	padding-left: 105px;
+	color: white;
+	font-weight: bold;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
