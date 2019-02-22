@@ -193,7 +193,18 @@ h3.section-p {
 #oneplus-5-row {
 	height: 500px;
 	width: 100%;
-	background-color: #fafafa;
+	background-color: #BBBBBB;
+}
+
+#second-row {
+	height: 500px;
+	width: 100%;
+	background-color: #CCCCCC;
+}
+#final-row {
+	height: 500px;
+	width: 100%;
+	background-color: #8A8A8A;
 }
 
 #oneplus5-img {
