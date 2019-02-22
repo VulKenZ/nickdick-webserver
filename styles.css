@@ -284,6 +284,13 @@ p.about-us-header {
 	float: left;
 }
 
+.demo-card-wide-nexter.mdl-card {
+  width: 40%;
+	margin-right: 11.5%;
+	border: 1px solid #454545;
+	border-radius: 4px;
+	}
+
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 320px;;
@@ -294,6 +301,12 @@ p.about-us-header {
   color: #fff;
   height: 320px;;
   background: url('images/polygon2.png') center / cover;
+}
+
+.demo-card-wide > .mdl-card__title-introer {
+  color: #fff;
+  height: 320px;;
+  background: url('images/polygon3.png') center / cover;
 }
 
 .demo-card-wide > .mdl-card__menu {
