@@ -26,9 +26,14 @@ html, body{
 	min-height: 100%;
 }
 
+#widget-container {
+	min-height: 100%;
+	text-align: center;
+}
+
 #main {
 	overflow: auto;
-	padding-bottom: 100px;
+	padding-bottom: 128px;
 	text-align: center;
 }
 
